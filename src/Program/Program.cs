@@ -9,6 +9,9 @@ using System.Collections;
 using System.Linq;
 using Full_GRASP_And_SOLID.Library;
 
+
+//CRC Cards: t.ly/DPea
+
 namespace Full_GRASP_And_SOLID
 {
     public class Program
