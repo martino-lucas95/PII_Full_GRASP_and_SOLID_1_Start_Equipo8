@@ -19,7 +19,7 @@ Costo equipamiento = Sumatoria de tiempo de uso x costo/hora del equipo para tod
 Costo total = costo insumos + costo equipamiento
 
 ➡️ **¿Qué patrón o principio usan para asignar esta responsabilidad?**
-Escriban la respuesta en comentarios en el código.
+Por el patrón Expert podemos definir que clase es responsable de la informacion para determinar el costo total.
 
 
 ➡️ **Agregar al final de la impresión de la receta el costo total de producción que se obtiene usando el método recién agregado.**

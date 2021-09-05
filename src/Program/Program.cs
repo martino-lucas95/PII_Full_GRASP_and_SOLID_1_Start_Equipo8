@@ -10,7 +10,7 @@ using System.Linq;
 using Full_GRASP_And_SOLID.Library;
 
 
-//CRC Cards: t.ly/DPea
+//CRC Cards: t.ly/hEoz
 
 namespace Full_GRASP_And_SOLID
 {
@@ -30,12 +30,12 @@ namespace Full_GRASP_And_SOLID
             recipe.AddStep(new Step(GetProduct("Leche"), 200, GetEquipment("Hervidor"), 60));
             recipe.PrintRecipe();
         }
-
         private static void PopulateCatalogs()
         {
             AddProductToCatalog("Café", 100);
             AddProductToCatalog("Leche", 200);
             AddProductToCatalog("Café con leche", 300);
+
 
             AddEquipmentToCatalog("Cafetera", 1000);
             AddEquipmentToCatalog("Hervidor", 2000);
